@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <form action="mailto:mehdimzilen@gmail.com" enctype="text/plain">
+      <label for="company">
+        Company
+        <input type="text" />
+      </label>
+      <br />
+      <label for="company_type">
+        Type of Company
+        <input type="text" name="company_type" id="company_type" />
+      </label>
+      <br />
+      <label for="interest">
+        Interest in our service
+        <input type="range" name="interest" id="interest" /> </label
+      ><br />
+      <label for="financial_statement">
+        Latest financial statement
+        <input
+          type="file"
+          name="financial_statement"
+          id="financial_statement"
+          accept=".pdf"
+        /> </label
+      ><br />
+      <label for="email">Your Email</label>
+      <input type="email" /> <br />
+      <textarea name="description" id="description" cols="30" rows="10">
+Further Information (optional)</textarea
+      >
+      <br />
+      <input type="submit" name="contacts" id="contacts" />
+    </form>
+  </body>
+</html>
